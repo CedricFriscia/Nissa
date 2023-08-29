@@ -1,4 +1,6 @@
 .landing {
+   margin-bottom: 10rem;
+
    &__introduction {
       display: flex;
       flex-direction: column;
@@ -8,9 +10,9 @@
 
    &__aside {
       font-size: 1.3rem;
-      color: #c78d55;
-      margin-bottom: 10px;
-      border-bottom: 1px solid #c78d55;
+      color: wheat;
+      margin-bottom: 25px;
+      border-bottom: 1px solid wheat;
       padding-bottom: 10px;
    }
 
