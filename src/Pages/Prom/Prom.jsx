@@ -10,7 +10,7 @@ import "./index.scss";
 const Prom = () => {
    return (
       <div className='prom'>
-         <Title name='" La prom "' />
+         <Title name='La Prom' />
          <section className='prom__container'>
             <p className='prom__presentation'>
                Que ce soit pour une balade romantique au coucher du soleil, une
