@@ -1,24 +1,15 @@
 .nice {
    display: flex;
    flex-direction: column;
-
    color: white;
-
-   &__title {
-      margin: auto;
-      font-size: 2rem;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px;
-      margin-bottom: 50px;
-   }
+   margin-bottom: 35px;
 
    &__old {
       display: flex;
       justify-content: space-around;
       margin-bottom: 35px;
       p {
-         font-size: 1.5rem;
+         font-size: 1.7rem;
          font-weight: 500;
          width: 40vw;
       }

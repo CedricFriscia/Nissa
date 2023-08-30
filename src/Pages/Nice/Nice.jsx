@@ -4,10 +4,13 @@ import "./index.scss";
 // Import img
 import vieux from "../../assets/vieux-nice.jpg";
 
+// Import components
+import Title from "../../Components/Title/Title";
+
 const Nice = () => {
    return (
       <div className='nice'>
-         <h1 className='nice__title'>Le vieux nice</h1>
+         <Title name='Le vieux nice' />
          <section className='nice__old'>
             <p>
                En plein cœur de Nice, le Vieux Nice vous invite à un voyage dans
