@@ -22,5 +22,3 @@ const Gym = () => {
       </div>
    );
 };
-
-export default Gym;

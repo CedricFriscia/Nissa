@@ -21,7 +21,7 @@ const Landing = () => {
             </h2>
          </section>
          <footer className='landing__footer'>
-            <p>Decouvre Nissa</p>
+            <p>Decouvre Nice</p>
             <KeyboardDoubleArrowDownIcon style={{ color: "red" }} />
          </footer>
       </div>
