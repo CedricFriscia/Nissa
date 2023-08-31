@@ -22,3 +22,5 @@ const Gym = () => {
       </div>
    );
 };
+
+export default Gym; // Correction de l'export
