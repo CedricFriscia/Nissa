@@ -1,4 +1,7 @@
+// Import css
 import "./index.scss";
+
+// Import IMG
 import logo from "../../assets/nissart.png";
 
 const Nav = () => {
@@ -7,20 +10,6 @@ const Nav = () => {
          <h1 className='navbar__logo'>
             <img src={logo} alt='Logo' />
          </h1>
-
-         <nav className='navbar__buttons'>
-            <ul className='navbar__list'>
-               <li className='navbar__item'>
-                  <a href='#accueil'>Accueil</a>
-               </li>
-               <li className='navbar__item'>
-                  <a href='#presentation'>Présentation</a>
-               </li>
-               <li className='navbar__item'>
-                  <a href='#galerie'>Galerie</a>
-               </li>
-            </ul>
-         </nav>
       </div>
    );
 };
