@@ -17,7 +17,7 @@
          letter-spacing: 2.5px;
          color: white;
          text-align: center;
-         border-right: 4px solid red;
+         border-bottom: 4px solid red;
       }
    }
 
@@ -45,6 +45,7 @@
             margin: auto;
             width: 85vw;
             border-right: 4px solid red;
+            border-bottom: none;
          }
       }
       &__img {
