@@ -18,10 +18,37 @@
          width: 40vw;
          color: white;
          text-align: center;
+         border-bottom: 4px solid red;
+         padding-bottom: 1rem;
       }
    }
 
    &__logo {
       width: 20vw;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+   .gym {
+      &__container {
+         display: flex;
+         flex-direction: column;
+
+         p {
+            border-bottom: 4px solid red;
+            padding-bottom: 1rem;
+            width: 80vw;
+            margin: auto;
+            font-size: 2rem;
+         }
+      }
+
+      &__logo {
+         margin: auto;
+         width: 70vw;
+      }
    }
 }

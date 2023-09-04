@@ -124,13 +124,6 @@ body {
 
 @media screen and (max-width: 767px) {
    .container {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-gap: 20px;
-      width: 90vw;
-      height: 30vh;
-      background: #000000;
-      transition: 0.25s;
+      display: none;
    }
 }

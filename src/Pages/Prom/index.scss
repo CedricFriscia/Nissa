@@ -17,6 +17,7 @@
          letter-spacing: 2.5px;
          color: white;
          text-align: center;
+         border-right: 4px solid red;
       }
    }
 
@@ -28,5 +29,26 @@
    &__img {
       border: 2px solid wheat;
       width: 50vw;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+   .prom {
+      &__container {
+         display: flex;
+         flex-direction: column-reverse;
+         gap: 2rem;
+         p {
+            margin: auto;
+            width: 85vw;
+            border-right: 4px solid red;
+         }
+      }
+      &__img {
+         width: 90vw;
+      }
    }
 }
