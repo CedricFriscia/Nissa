@@ -40,3 +40,25 @@
       }
    }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   .landing {
+      &__title {
+         color: white;
+         font-size: 3.5rem;
+         width: 80%;
+         text-align: center;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .landing {
+      &__title {
+         color: white;
+         font-size: 2rem;
+         width: 90vw;
+         text-align: center;
+      }
+   }
+}
