@@ -20,14 +20,6 @@ const Nice = () => {
                captivante de cultures, mêlant l'influence italienne à l'identité
                niçoise.
             </p>
-            <p>
-               Le Vieux Nice abrite également d'importantes églises et monuments
-               historiques. La Cathédrale Sainte-Réparate, avec son intérieur
-               baroque orné, est un exemple remarquable de l'architecture
-               religieuse locale. Les petites places, comme la Place Rossetti,
-               deviennent des centres de vie animés, avec des terrasses de café
-               et une atmosphère conviviale.
-            </p>
          </section>
 
          <img className='nice__image' src={vieux} alt='vieux nice' />

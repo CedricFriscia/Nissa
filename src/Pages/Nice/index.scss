@@ -9,12 +9,15 @@
       justify-content: space-around;
       margin-bottom: 35px;
       p {
-         font-size: 1.7rem;
-         font-weight: 500;
-         width: 40vw;
-         border-left: 4px solid red;
-         line-height: 2rem;
-         padding-left: 10px;
+         display: flex;
+         align-items: center;
+         font-size: 2rem;
+         font-weight: 400;
+         width: 60vw;
+         color: white;
+         text-align: center;
+         border-bottom: 4px solid red;
+         padding-bottom: 1rem;
       }
    }
 

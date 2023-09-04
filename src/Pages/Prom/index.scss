@@ -6,30 +6,29 @@
 
    &__container {
       display: flex;
-      gap: 6rem;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4rem;
 
       p {
          display: flex;
+         justify-content: center;
          align-items: center;
+         margin: auto;
          font-size: 2rem;
-         font-weight: 500;
-         width: 35vw;
-         letter-spacing: 2.5px;
+         font-weight: 400;
+         width: 60vw;
          color: white;
          text-align: center;
-         border-top: 4px solid red;
-         padding-top: 1rem;
+         border-bottom: 4px solid red;
+         padding-bottom: 1rem;
       }
-   }
-
-   &__quote {
-      color: red;
-      font-size: 5rem;
    }
 
    &__img {
       border: 2px solid wheat;
-      width: 50vw;
+      width: 60vw;
+      margin: auto;
    }
 }
 
