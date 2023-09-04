@@ -11,13 +11,14 @@
       p {
          display: flex;
          align-items: center;
-         font-size: 1.7rem;
+         font-size: 2rem;
          font-weight: 500;
          width: 35vw;
          letter-spacing: 2.5px;
          color: white;
          text-align: center;
-         border-bottom: 4px solid red;
+         border-top: 4px solid red;
+         padding-top: 1rem;
       }
    }
 
@@ -44,8 +45,9 @@
          p {
             margin: auto;
             width: 85vw;
-            border-right: 4px solid red;
-            border-bottom: none;
+            border-top: none;
+            padding-bottom: 1rem;
+            border-bottom: 4px solid red;
          }
       }
       &__img {
